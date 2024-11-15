@@ -1,0 +1,35 @@
+# Node.js (Frontend e Backend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/**
+
+# IDEs/Editors
+.vscode/
+.idea/
+*.swp
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Frontend Build
+tcc-front/dist/
+tcc-front/build/
+
+# Backend Build
+tcc-back/target/
+
+# Docker
+docker-compose.override.yml
+.env
+
+# Outros
+*.tmp
+*.bak
+*.log

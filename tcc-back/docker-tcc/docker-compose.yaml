@@ -1,0 +1,13 @@
+services:
+
+  tcc-db:
+    image: postgres
+    container_name: tcc
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+    restart: always
+    environment:
+      POSTGRES_USER: tcc
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
